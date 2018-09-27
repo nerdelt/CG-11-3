@@ -27,7 +27,7 @@ namespace StudentMinMax
             string line;
 
             //reads txt file and creates list, each line being item in list. 
-            using (StreamReader sr = new StreamReader(@"C:\Users\nerdelt\source\repos\CG-11-2\StudentGrades\StudentGrades\studentdata.txt"))
+            using (StreamReader sr = new StreamReader(@"C:\Users\nerdelt\source\repos\CG-11-3\StudentMinMax\StudentMinMax\studentdata.txt"))
 
             {
                 //while loop to add each line as an element in  list Student
@@ -72,7 +72,7 @@ namespace StudentMinMax
                     Scores = new List<int>();
 
                     //writes each students name and score 
-                    Console.WriteLine($"{Name}'s minimum score: {min}; maximum score: {max}.\n");
+                    Console.WriteLine($"{ Name}'s minimum score: {min}; maximum score: {max}.\n");
             }
         }
     }
