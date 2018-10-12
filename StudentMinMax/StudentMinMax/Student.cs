@@ -12,10 +12,10 @@ namespace StudentMinMax
         // creates string array for txt file to go into
 
         //creates a list for all the split strings from Students
-        public List<string> SplitList = new List<string>();
+        private List<string> SplitList = new List<string>();
 
         //creates list for scores to go into 
-        public List<int> Scores = new List<int>();
+        private List<int> Scores = new List<int>();
 
         //creates string property to be returned 
         public string Name { get; set; }
